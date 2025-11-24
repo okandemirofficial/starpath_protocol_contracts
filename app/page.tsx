@@ -19,7 +19,7 @@ export default function HomePage() {
               Sözleşmeler ve Politikalar
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground text-balance max-w-2xl mx-auto">
-              MyApp için önemli yasal bilgiler ve politikalar. Gizlilik uygulamalarımızı ve hizmet şartlarımızı okuyun.
+              Kilim için önemli yasal bilgiler ve politikalar. Gizlilik uygulamalarımızı ve hizmet şartlarımızı okuyun.
             </p>
           </div>
         </section>

@@ -8,8 +8,8 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Legal Contracts | MyApp",
-  description: "Privacy Policy and Terms of Use for MyApp",
+  title: "Legal Contracts | Kilim",
+  description: "Gizlilik Politikası ve Kullanım Koşulları",
   generator: "v0.app",
   icons: {
     icon: [
