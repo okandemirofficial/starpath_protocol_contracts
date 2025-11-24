@@ -12,14 +12,14 @@ export default function HomePage() {
           <div className="relative max-w-4xl mx-auto text-center">
             <div className="inline-block mb-6">
               <span className="px-4 py-2 rounded-full bg-primary/10 border border-primary/30 text-primary text-sm font-semibold">
-                Legal Documentation
+                Yasal Belgeler
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance bg-gradient-to-r from-foreground via-primary to-accent bg-clip-text text-transparent">
-              Contracts & Policies
+              Sözleşmeler ve Politikalar
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground text-balance max-w-2xl mx-auto">
-              Important legal information and policies for MyApp. Read our privacy practices and terms of service.
+              MyApp için önemli yasal bilgiler ve politikalar. Gizlilik uygulamalarımızı ve hizmet şartlarımızı okuyun.
             </p>
           </div>
         </section>
@@ -37,11 +37,11 @@ export default function HomePage() {
                     🔒
                   </div>
                   <h2 className="text-2xl font-semibold mb-3 text-foreground group-hover:text-accent transition-colors">
-                    Privacy Policy
+                    Gizlilik Politikası
                   </h2>
                   <p className="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors">
-                    Learn how we collect, use, and protect your personal information with our comprehensive privacy
-                    practices.
+                    Kapsamlı gizlilik uygulamalarımızla kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı ve
+                    koruduğumuzu öğrenin.
                   </p>
                 </div>
               </Link>
@@ -56,10 +56,10 @@ export default function HomePage() {
                     ⚖️
                   </div>
                   <h2 className="text-2xl font-semibold mb-3 text-foreground group-hover:text-accent transition-colors">
-                    Terms of Use
+                    Kullanım Koşulları
                   </h2>
                   <p className="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors">
-                    Read the terms and conditions governing your use of our application and services.
+                    Uygulamamızı ve hizmetlerimizi kullanımınızı düzenleyen şart ve koşulları okuyun.
                   </p>
                 </div>
               </Link>

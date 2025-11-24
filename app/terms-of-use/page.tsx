@@ -3,8 +3,8 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
 export const metadata = {
-  title: "Terms of Use | MyApp",
-  description: "Terms of Use for MyApp",
+  title: "Kullanıcı Sözleşmesi | Kilim",
+  description: "Kilim Health Mobil Uygulaması Kullanıcı Sözleşmesi",
 }
 
 export default function TermsOfUsePage() {
@@ -18,126 +18,209 @@ export default function TermsOfUsePage() {
               href="/"
               className="inline-flex items-center gap-2 text-accent hover:text-primary transition-colors font-medium text-sm"
             >
-              ← Back to Contracts
+              ← Sözleşmelere Dön
             </Link>
           </div>
 
           <article className="prose prose-sm md:prose-base max-w-none prose-headings:text-foreground prose-p:text-muted-foreground prose-a:text-accent prose-strong:text-foreground prose-li:text-muted-foreground">
             <h1 className="text-5xl md:text-6xl font-bold mb-2 bg-gradient-to-r from-foreground via-primary to-accent bg-clip-text text-transparent">
-              Terms of Use
+              Kilim Health Mobil Uygulaması Kullanıcı Sözleşmesi
             </h1>
-            <p className="text-muted-foreground/70 mb-8 text-sm">Last updated: November 25, 2025</p>
+            <p className="text-muted-foreground/70 mb-8 text-sm">Yürürlük Tarihi: 25 Kasım 2025</p>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">1. Acceptance of Terms</h2>
+              <div className="mt-4 p-6 bg-card/50 border border-border/40 rounded-xl backdrop-blur">
+                <p className="text-foreground mb-2">
+                  <strong>Veri Sorumlusu ve Hizmet Sağlayıcı:</strong>
+                </p>
+                <p className="text-muted-foreground mb-2">Kilim Health Teknoloji A.Ş.</p>
+                <p className="text-foreground">
+                  <strong>E-posta:</strong> <span className="text-accent">info@kilimhealth.com</span>
+                </p>
+              </div>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">1. Taraflar ve Amaç</h2>
               <p className="text-muted-foreground leading-relaxed">
-                By accessing and using the MyApp application and website, you accept and agree to be bound by the terms
-                and provision of this agreement. If you do not agree to abide by the above, please do not use this
-                service.
+                Bu sözleşme, Kilim Health Teknoloji A.Ş. ("Şirket" veya "Kilim Health") tarafından işletilen mobil uygulama ("Uygulama") üzerinden sunulan dijital ilişki koçluğu hizmetlerinden yararlanmak isteyen gerçek kişiler ("Kullanıcı") ile Şirket arasında akdedilmiştir.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Kullanıcı, bu sözleşmeyi onaylayarak Uygulama'da sunulan hizmetleri, aşağıda belirtilen koşullar çerçevesinde kullanmayı kabul eder.
               </p>
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">2. Use License</h2>
+              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">2. Hizmetin Kapsamı</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Permission is granted to temporarily download one copy of the materials (information or software) on
-                MyApp for personal, non-commercial transitory viewing only. This is the grant of a license, not a
-                transfer of title, and under this license you may not:
+                Kilim Health, Kullanıcıların kendi ilişkilerini geliştirmelerine destek olmak amacıyla:
               </p>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex gap-3">
                   <span className="text-accent">•</span>
-                  <span>Modify or copy the materials</span>
+                  <span>Yapay zekâ destekli bir "ilişki koçu" sistemi,</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-accent">•</span>
-                  <span>Use the materials for any commercial purpose or for any public display</span>
+                  <span>Partnerler arası iletişim ve farkındalık analizleri,</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-accent">•</span>
-                  <span>Attempt to decompile or reverse engineer any software contained on the application</span>
+                  <span>Profesyonel uzman yönlendirmeleri (psikolog, terapist vb.)</span>
+                </li>
+              </ul>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                gibi hizmetler sunar.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Uygulama üzerinden verilen yapay zekâ tavsiyeleri profesyonel psikolojik danışmanlık veya tıbbi hizmet niteliğinde değildir. Gerektiğinde Kullanıcı, sistem tarafından profesyonel desteğe yönlendirilebilir.
+              </p>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">3. Kayıt ve Hesap Kullanımı</h2>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Kullanıcı, Uygulama'ya üye olurken kimlik, iletişim, sağlık ve partner bilgilerini doğru ve eksiksiz şekilde paylaşmayı kabul eder.</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-accent">•</span>
-                  <span>Transfer the materials to another person or "mirror" the materials on any other server</span>
+                  <span>Kullanıcı, sadece kendi adına hesap açabilir. Başkası adına hesap açmak veya üçüncü kişilerin bilgilerini izinsiz paylaşmak yasaktır.</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-accent">•</span>
-                  <span>Remove any copyright or other proprietary notations from the materials</span>
+                  <span>Kullanıcı, hesabına ait erişim bilgilerini gizli tutmakla yükümlüdür.</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-accent">•</span>
-                  <span>Transmit legal threats, harass, or cause distress or inconvenience to any person</span>
+                  <span>Şirket, sahte bilgi paylaşımı, sistemin kötüye kullanımı veya mevzuata aykırılık durumunda üyeliği askıya alma veya sonlandırma hakkına sahiptir.</span>
                 </li>
               </ul>
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">3. Disclaimer</h2>
+              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">4. Kullanım Koşulları ve Yükümlülükler</h2>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Kullanıcı, Uygulama'yı yalnızca kişisel amaçlarla kullanabilir; ticari, rekabetçi veya yasa dışı faaliyetlerde kullanamaz.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Yapay zekâ çıktıları yalnızca rehberlik amaçlıdır; bu öneriler profesyonel teşhis veya tedavi yerine geçmez.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Kullanıcı, sistemde paylaştığı tüm verilerin doğru, güncel ve kendisine ait olduğunu beyan eder.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Uygulama üzerinden yapılan iletişimlerde etik, saygılı ve yasal sınırlar içinde davranmak zorundadır.</span>
+                </li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">5. Ücretlendirme ve Ödeme</h2>
               <p className="text-muted-foreground leading-relaxed">
-                The materials on MyApp are provided on an 'as is' basis. MyApp makes no warranties, expressed or
-                implied, and hereby disclaims and negates all other warranties including, without limitation, implied
-                warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of
-                intellectual property or other violation of rights.
+                Uygulama'nın temel fonksiyonları ücretsiz olabilir; ancak Şirket bazı hizmetleri (premium üyelik, uzman görüşmesi, raporlama vb.) ücretli sunabilir.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Ücretli hizmetlerde, Kullanıcı ödeme işlemi öncesinde bilgilendirilir ve onay vermedikçe ücret tahakkuk ettirilmez.
               </p>
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">4. Limitations</h2>
+              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">6. Fikri Mülkiyet Hakları</h2>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Uygulama'nın tüm bileşenleri (tasarım, yazılım kodları, görseller, veritabanı, yapay zekâ modeli vb.) Kilim Health Teknoloji A.Ş.'ye aittir.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Kullanıcı, bu içerikleri izinsiz kopyalayamaz, çoğaltamaz, dağıtamaz veya tersine mühendislik yapamaz.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Kullanıcı tarafından paylaşılan içerikler (örneğin mesajlar, sorular, yanıtlar) Şirket tarafından anonimleştirilerek yapay zekâ sisteminin geliştirilmesinde kullanılabilir.</span>
+                </li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">7. Kişisel Verilerin Korunması</h2>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Kullanıcı tarafından paylaşılan tüm kişisel veriler, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) hükümlerine uygun şekilde işlenir.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Veri işleme süreçleri Aydınlatma Metni ve Açık Rıza Beyanı ile belirlenmiştir.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Kullanıcı, KVKK kapsamında veri işleme, saklama ve aktarım süreçleri hakkında bilgilendirilmiştir.</span>
+                </li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">8. Sorumluluk Reddi</h2>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Uygulama, kullanıcı ilişkilerinde nihai sonuç garantisi vermez.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Şirket, yapay zekâ tarafından yapılan önerilerin uygulanması sonucunda doğabilecek dolaylı veya doğrudan zararlardan sorumlu tutulamaz.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Hizmet, "olduğu gibi" sunulur; sistemsel hatalar, teknik kesintiler veya üçüncü taraf servis arızalarından dolayı Şirket sorumlu değildir.</span>
+                </li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">9. Fesih</h2>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Kullanıcı, hesabını dilediği zaman silebilir.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Şirket, kullanıcı sözleşmesine aykırı davranan kişilerin hesaplarını önceden bildirimde bulunmaksızın kapatma hakkına sahiptir.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent">•</span>
+                  <span>Hesap silindiğinde, yasal zorunluluklar dışında kişisel veriler ilgili politikalar uyarınca imha edilir.</span>
+                </li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">10. Uygulanacak Hukuk ve Yetki</h2>
               <p className="text-muted-foreground leading-relaxed">
-                In no event shall MyApp or its suppliers be liable for any damages (including, without limitation,
-                damages for loss of data or profit, or due to business interruption) arising out of the use or inability
-                to use the materials on MyApp.
+                Bu sözleşme Türk Hukuku'na tabidir.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Taraflar arasında doğabilecek uyuşmazlıklarda İstanbul (Anadolu) Mahkemeleri ve İcra Daireleri yetkilidir.
               </p>
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">5. Accuracy of Materials</h2>
+              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">11. Yürürlük</h2>
               <p className="text-muted-foreground leading-relaxed">
-                The materials appearing on MyApp could include technical, typographical, or photographic errors. MyApp
-                does not warrant that any of the materials on its website are accurate, complete, or current.
+                Kullanıcı, Uygulama'ya üye olup bu sözleşmeyi onayladığı anda sözleşme yürürlüğe girer.
               </p>
-            </section>
-
-            <section className="mb-12">
-              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">6. Links</h2>
-              <p className="text-muted-foreground leading-relaxed">
-                MyApp has not reviewed all of the sites linked to its website and is not responsible for the contents of
-                any such linked site. The inclusion of any link does not imply endorsement by MyApp of the site. Use of
-                any such linked website is at the user's own risk.
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Şirket, gerekli gördüğünde sözleşme hükümlerinde değişiklik yapabilir; güncel versiyon Uygulama'da yayımlandığı tarihte yürürlüğe girer.
               </p>
-            </section>
-
-            <section className="mb-12">
-              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">7. Modifications</h2>
-              <p className="text-muted-foreground leading-relaxed">
-                MyApp may revise these terms of service for its website at any time without notice. By using this
-                website you are agreeing to be bound by the then current version of these terms of service.
-              </p>
-            </section>
-
-            <section className="mb-12">
-              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">8. Governing Law</h2>
-              <p className="text-muted-foreground leading-relaxed">
-                These terms and conditions are governed by and construed in accordance with the laws of the jurisdiction
-                in which MyApp operates, and you irrevocably submit to the exclusive jurisdiction of the courts in that
-                location.
-              </p>
-            </section>
-
-            <section className="mb-12">
-              <h2 className="text-3xl font-bold mt-12 mb-6 text-foreground">9. Contact Us</h2>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                If you have any questions about these Terms of Use, please contact us at:
-              </p>
-              <div className="mt-4 p-6 bg-card/50 border border-border/40 rounded-xl backdrop-blur">
-                <p className="text-foreground mb-2">
-                  <strong>Email:</strong> <span className="text-accent">legal@myapp.com</span>
-                </p>
-                <p className="text-foreground">
-                  <strong>Address:</strong> <span className="text-muted-foreground">Legal Department, MyApp Inc.</span>
-                </p>
-              </div>
             </section>
           </article>
         </div>
