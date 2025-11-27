@@ -8,23 +8,23 @@ export function Header() {
           href="/"
           className="text-2xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent hover:opacity-80 transition-opacity"
         >
-          Kilim
+          Starpath Protocol
         </Link>
         <div className="flex gap-8">
           <Link href="/" className="text-foreground/80 hover:text-accent transition-colors font-medium text-sm">
-            Anasayfa
+            Home
           </Link>
           <Link
             href="/privacy-policy"
             className="text-foreground/80 hover:text-accent transition-colors font-medium text-sm"
           >
-            Gizlilik Politikası
+            Privacy Policy
           </Link>
           <Link
             href="/terms-of-use"
             className="text-foreground/80 hover:text-accent transition-colors font-medium text-sm"
           >
-            Kullanım Koşulları
+            Terms of Use
           </Link>
         </div>
       </nav>
